@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #8B0000 50%, #000000 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 15px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      max-width: 90%;
+    }
+
+    .card h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 25px;
+      background-color: #ff0000;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .card a:hover {
+      background-color: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🦋 Welcome to Butterfly Classifier</h2>
+    <a href="/predict">Go to Prediction Page</a>
+  </div>
+</body>
+</html>
